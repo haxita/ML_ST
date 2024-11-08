@@ -11,7 +11,7 @@ COPY environment.yml .
 RUN conda env create -f environment.yml
 
 # 激活环境
-SHELL ["conda", "run", "-n", "ML_ST", "/bin/bash", "-c"]
+SHELL ["conda", "run", "-n", "ml_st", "/bin/bash", "-c"]
 
 # 安装必要的工具
 RUN conda install -c conda-forge jupyterlab
