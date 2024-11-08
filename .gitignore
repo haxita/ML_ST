@@ -1,6 +1,6 @@
 # 忽略虚拟环境
-ML_ST/
-/opt/miniconda3/envs/ML_ST/
+ml_st/
+/opt/miniconda3/envs/ml_st/
 
 # 忽略 VS Code 配置
 .vscode/
