@@ -1,0 +1,11 @@
+{
+    "python.condaPath": "/opt/miniconda3/bin/conda",  // 替换为你的 Conda 安装路径
+    "python.defaultInterpreterPath": "/opt/miniconda3/envs/ML_ST/bin/python",  // 替换为你的 Conda 环境的 Python 路径
+    "python.envFile": "${workspaceFolder}/.env",
+    "terminal.integrated.env.osx": {  // 如果你使用的是 macOS
+      "CONDA_DEFAULT_ENV": "ML_ST",
+      "CONDA_PREFIX": "/opt/miniconda3/envs/ML_ST",
+      "PATH": "/opt/miniconda3/envs/ML_ST/bin:${env:PATH}"
+    },
+    "python.pythonPath": "/opt/miniconda3/envs/ML_ST/bin/python"  // 替换为你的环境 Python 路径
+  }
