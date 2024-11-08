@@ -17,4 +17,4 @@ SHELL ["conda", "run", "-n", "ML_ST", "/bin/bash", "-c"]
 RUN conda install -c conda-forge jupyterlab
 
 # 设置默认命令
-CMD ["conda", "run", "--no-capture-output", "-n", "ML_ST", "bash"]
+CMD ["conda", "run", "--no-capture-output", "-n", "ml_st", "bash"]
